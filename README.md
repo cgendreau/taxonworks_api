@@ -4,7 +4,7 @@ Documentation for the TaxonWorks API.
 
 # Status
 
-TLDR - We have lots of non externally documented, non /API/VI nodes that could be aliased for experimenting. Once we do a major branch merge in the near future we will turn our focus to getting those endpoints cleaned up, and exposed in a proper fashion here.  
+TLDR - We have lots of non externally documented, non `api/v1` nodes that could be aliased for experimenting. Once we do a major branch merge in the near future we will turn our focus to getting those endpoints cleaned up, and exposed in a proper fashion here.  
 
 See the issues here as to our present thinking/considerations and next steps.
 
@@ -28,7 +28,7 @@ You can add existing internal endpoints to `api/v1` for the purposes of experime
     scope  '/v1' do
     
     # Add TaxonNames endpoints
-    resources taxon_names
+    resources :taxon_names
     
     # ...
     
